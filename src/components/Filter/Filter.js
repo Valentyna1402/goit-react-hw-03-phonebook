@@ -4,6 +4,7 @@ export const Filter = ({ filter, onUpdateFilter, onReset }) => {
   return (
     <Wrapper>
       <Text>Find contacts by name</Text>
+      
       <Field
         type="text"
         value={filter}
